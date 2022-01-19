@@ -72,7 +72,7 @@ The index.html page is the most common name used for the default page shown on a
         <footer> Defines a footer for a document or section </footer>
 
 
-        <p> Defines a paragraph </p>
+        <p style="font-family:serif; color:black; max-width:100%; background-color:white; font-weight:bold"> Defines a paragraph </p>
         <a> Defines a hyperlink </a>
         <b> Defines bold text </b>
         <br> Defines a single line break </br>
@@ -132,6 +132,13 @@ The index.html page is the most common name used for the default page shown on a
         <input type="text" name="">
         
     </form>
+
+    <div>
+        <input type="text" placeholder="Enter your username"><br>
+        <input type="email" placeholder="Enter your email"><br>
+        <input type="password" placeholder="****************"><br>
+        <input type="submit" value="Submit">
+    </div>
 
     <script src="app.js"></script>
     </body>

@@ -2,10 +2,14 @@ body{
   font-family:'Times New Roman', Times, serif
 }
 
-#director-image{
+/* #director-image{
   border-radius: 10px;
   max-width: 100%;
   height: auto;
-  
+} */
 
+div>img{
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
 }

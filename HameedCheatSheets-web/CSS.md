@@ -8,6 +8,8 @@
 
 ![CSS Specifity](https://res.cloudinary.com/practicaldev/image/fetch/s--XI6qg9BK--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dkerupv5p9lu9k10w5l1.png)
 
+- CSS executes properties line by line, so that the last line is always the line that remains.
+  
 ```CSS
 /*Syntax*/
 selector{
@@ -59,6 +61,16 @@ h1 ~ p {
     /* Selects every p element preceded by a h1 element */
 }
 
+
+<!-- Add image by a HTML element: -->
+<div style="background-image: url('img.jpg');">
+
+<!-- Add to the entire body: -->
+<style>
+body {
+  background-image: url('img.jpg');
+}
+</style>
 ```
 
 ## Most Common CSS Properties with the equivalent of the DOM notation which is usually accessed from JavaScript
@@ -100,3 +112,5 @@ z-index             Sets the order of overlapping elements `{auto, -1, 0, 1, 2, 
 - [Best CSS cheat Sheet](https://htmlcheatsheet.com/css/)
 
 - [Common CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
+
+- [CSS Styling Images](https://www.w3schools.com/css/css3_images.asp)
