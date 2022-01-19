@@ -6,7 +6,13 @@ Tags   &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; ```<a href="https://github.com/"></a>
 
 Element &nbsp; &nbsp; &nbsp; &nbsp;   a
 
-Attributes &nbsp; &nbsp; &nbsp; &nbsp;href="https://github.com"
+Attributes &nbsp; &nbsp; &nbsp; &nbsp;href="https://github.com"\
+Common Attributes
+
+- src
+- href
+- class
+- id
 
 Elements can have unique identifiers used by javascript and CSS\
  ```<p id="fruit"> Apple Orange Banana </p>```
@@ -19,19 +25,30 @@ The index.html page is the most common name used for the default page shown on a
 
 ```HTML
 <!DOCTYPE HTML>
+<html lang="en">
+
 <html>
     <head>
+
+        <!-- meta tags - start with those 3 metatags before anything else
+            Description and language support for HTML-->
+        <meta charset="UTF-8">
+        <meta name="description" content="الوصف اللى بيظهر تحت الموقع بتاعك لما بتعمل سيرش">
         <title>Cheat Sheet</title>
-        <link rel="stylesheet" type="text/css" href="./index.css">
+
+        <!-- add a link with a relation of style sheet for css -->
+        <link rel="stylesheet" type="text/css" href="../index.css">
+        <script type="text/javascript" src="../index.js"></script>
     </head>
 
     <body>
         <h1><strong><em>Cheat Sheet</em></strong></h1>
-        <h2>A semi complete HTML Cheat sheet</h2>
+        <h2>A <ul>semi</ul> complete <mark>HTML </mark>Cheat sheet</h2>
 
-        <p>In order to practice my muscle memory, I'll try to remember as much as possible, from HTML, Tags, Elements & Attributes.</p>
+        <p>In order to <sub>practice</sub> my <sup>muscle memory</sup>, I'll try to remember as much as possible, from HTML, Tags, Elements & Attributes.</p>
 
-        <a href="https://github.com/">Github.com</a>
+        // Must contain the link's protocol `https://`
+        <a href="https://github.com/" target="_blank">Github.com</a>
         <a href="#container">Go to the div line</a>
 
         <script src="https://ajax.googleapis.com/ajax/lib">JS</script>
@@ -63,7 +80,9 @@ The index.html page is the most common name used for the default page shown on a
         <div> Defines a section in a document </div>
         <footer> Defines a footer for a document or section </footer>
         <h1> to <h6> Defines HTML headings </h1> to </h6>
-        <img> Defines an image </img>
+        
+        // width will scale the image, but the height will distort the image.
+        <img src="../passengers.jpg" alt="passengers" width="300"/> Defines an image
         
         // Defines ordered/unordered lists & list items
         <ol> Defines an ordered list </ol>
@@ -73,19 +92,58 @@ The index.html page is the most common name used for the default page shown on a
         <script> Defines a client-side script </script>
         <span> Defines a section in a document</span>
         
+
         // Defines a Table, cells and rows.
-        <table> Defines a table </table>
-        <td> Defines a cell in a table</td>
-        <th> Defines a header cell in a table </th>
-        <tr> Defines a row in a table </tr>
+        <table border="2" bgcolor="yellow"> Defines a table
+        <thead bgcolor="red"> Defines a table header
+            <tr> Defines a row in a table
+            <th>header1</th> Defines a header cell in a table 
+            <th>header2</th>
+            <th>header3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>text1.1</td> Defines a cell in a table
+            <td>text1.2</td>
+            <td>text1.3</td>
+            </tr>
+            <tr>
+            <td>text2.1</td>
+            <td>text2.2</td>
+            <td>text2.3</td>
+            </tr>
+            <tr>
+            <td>text3.1</td>
+            <td>text3.2</td>
+            <td>text3.3</td>
+            </tr>
+            <tr>
+            </tr>
+        </tbody>
+        </table>
 
+    <div>
+        <span>Hello</span>
+    </div>
 
+    <form>
+        <button>Click me!</button><br>
+        <input type="text" name="">
+        
+    </form>
+
+    <script src="app.js"></script>
     </body>
 
 </html>
 
 ```
 
+![Differnce](https://i1.wp.com/www.differencebetween.com/wp-content/uploads/2018/02/Difference-Between-Block-and-Inline-Elements-fig-1.png?w=567&ssl=1)
+
 ## Resources
 
 - [Best HTML cheat Sheet](https://htmlcheatsheet.com/)
+
+- [Common CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)

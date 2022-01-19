@@ -1,0 +1,11 @@
+body{
+  font-family:'Times New Roman', Times, serif
+}
+
+#director-image{
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  
+
+}
