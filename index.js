@@ -15,8 +15,6 @@ function save() {
     count = 0
 }
 
-function summation(){
-    
-}
+function summation() {
 
- 
+}
