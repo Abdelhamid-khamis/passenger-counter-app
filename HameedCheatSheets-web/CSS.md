@@ -81,6 +81,11 @@ body {
     height: auto;
     width: auto\9; /* ie8 */
     object-fit: contain;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/ajQqX6GfVMuJoRYMh2pl3eJsRv0=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13959855/acastro_190218_1777_apple_streaming_0003.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 ```
 
 ## Most Common CSS Properties with the equivalent of the DOM notation which is usually accessed from JavaScript
