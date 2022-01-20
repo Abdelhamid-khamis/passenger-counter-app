@@ -1,15 +1,75 @@
-body{
-  font-family:'Times New Roman', Times, serif
+body {
+  font-family: "Times New Roman", Times, serif;
 }
 
-/* #director-image{
+#director-image {
   border-radius: 10px;
   max-width: 100%;
   height: auto;
-} */
+}
 
-div>img{
+/* form inputs group */
+div > input {
   border-radius: 10px;
+}
+
+input[type="text"] {
+  background-color: rgb(7, 7, 7);
+  color: white;
+}
+input[type="email"] {
+  background-color: rgb(219, 4, 4);
+  color: white;
+}
+
+input[type="password"] {
+  background-color: rgb(240, 225, 13);
+}
+
+/* divs' boxes group */
+.box-group {
+  background-color: rgb(233, 145, 13);
+  height: 100px;
+  width: 100px;
+  border: 10px solid red;
+}
+
+.box-group2 {
+  max-width: 200px;
+  height: auto;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: aqua;
+}
+
+.img-responsive {
   max-width: 100%;
   height: auto;
+  width: auto\9; /* ie8 */
+  object-fit: contain;
+}
+
+.article-headers {
+  font: size 100px;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: right;
+  direction: rtl;
+}
+
+img[target="_blank"] {
+  background-color: yellow;
+}
+
+div.apple {
+  border: 1px solid;
+  max-width: 200px;
+  height: 200px;
+  width: auto\9; /* ie8 */
+  background-image: url("https://cdn.vox-cdn.com/thumbor/ajQqX6GfVMuJoRYMh2pl3eJsRv0=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13959855/acastro_190218_1777_apple_streaming_0003.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }

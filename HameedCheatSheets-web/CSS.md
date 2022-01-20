@@ -41,6 +41,10 @@ p.class {
   /* Selects all p elements with class = "class" */
 }
 
+a[target="_blank"] {
+  background-color: yellow;
+}
+
 h1, p {
   /* Selects all h1 elements and p elements */
 }
@@ -71,6 +75,12 @@ body {
   background-image: url('img.jpg');
 }
 </style>
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    object-fit: contain;
 ```
 
 ## Most Common CSS Properties with the equivalent of the DOM notation which is usually accessed from JavaScript
