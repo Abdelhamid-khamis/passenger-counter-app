@@ -2,9 +2,6 @@
 
 ## Becoming a Web Developer Journey!
 
-My exercises folder, from multiple sources.
-
-
 
 ---
 ## Resources
