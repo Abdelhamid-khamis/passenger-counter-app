@@ -2,11 +2,7 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-#director-image {
-  border-radius: 10px;
-  max-width: 100%;
-  height: auto;
-}
+
 
 /* form inputs group */
 div > input {
@@ -72,4 +68,51 @@ div.apple {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* 1. Make the main headline dark green.*/
+/* 2. Use the font family "Georgia" 
+      for the main headline and the sub-headline. */
+/* 3. Center the text of the main headline and the sub-headline. */
+.headers{
+  color: green;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headers>h2{
+  color: black;
+}
+
+/* 4. Make the paragraphs have a line height of 25 pixels. */
+p{
+  line-height: 25px;
+}
+
+/* 5. Remove the underline from the links. */
+a{
+  text-decoration: none;  
+}
+
+/* 7. Bonus: Make an underline appear when you hover over a link. */
+a:hover{
+  text-decoration: underline;
+}
+
+/* 5. Make the "You might also like" label all uppercase. */
+.para4>p{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* 8. Bonus: Make the image 'float' to the left of the body content. */
+.imager {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  float: left;
+}
+
+.para1>p .para2 .para3 .para4{
+  float: right;
 }
