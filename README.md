@@ -7,5 +7,10 @@ My exercises folder, from multiple sources.
 
 
 ---
-### Resources
+## Resources
+
+### Courses
 1. [The coding bootcamp primer - Scrimba Course](https://scrimba.com/learn/bootcampprimer)
+
+### Exercises
+1. 
